@@ -17,7 +17,7 @@ $mail->isSMTP(); // send as HTML
 $mail->Host = "smtp.gmail.com"; // SMTP servers
 $mail->SMTPAuth = true; // turn on SMTP authentication
 $mail->Username = "ajnasim72@gmail.com"; // Your mail
-$mail->Password = 'Ajnasim016'; // Your password mail
+$mail->Password = ''; // Your password mail
 $mail->Port = 587; //specify SMTP Port
 $mail->SMTPSecure = 'tls';                               
 $mail->setFrom($email,$name);
